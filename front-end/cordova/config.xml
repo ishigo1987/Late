@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="stephnguets.late" version="0.1.0">
+  <name>Late</name>
+  <description>
+    Example Tabris.js App
+  </description>
+  <author email="stephnguets@yahoo.fr">
+    Stephane Nguetseng
+  </author>
+  <preference name="Orientation" value="portrait" />
+  <preference name="KeepRunning" value="true"/>
+  <preference name="AndroidExtraFilesystems" value="files,files-external,documents,sdcard,cache,cache-external,assets,root" />
+  <plugin name="cordova-plugin-android-softinputmode" spec="https://github.com/ishigo1987/cordova-plugin-android-softinputmode.git" />
+  <preference name="EnableDeveloperConsole" value="$IS_DEBUG" />
+</widget>
